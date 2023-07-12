@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escolha seu Personagem: Versão Boku no Hero</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./assets/header/header.png" alt="logo boku no hero" srcset="">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="deku" data-name="Deku" 
+                    data-description="Quirk: One for All">
+                    <img src="./assets/jpg/deku.jpg" alt="Personagem Deku"
+                    />
+                </li>
+
+                <li class="personagem" id="bakugo" data-name="Bakugo" 
+                    data-description="Quirk: Explosion">
+                    <img src="./assets/jpg/bakugo.jpg" alt="Personagem Bakugo"
+                    />
+                </li>
+
+                <li class="personagem" id="uraraka" data-name="Uraraka"
+                    data-description="Quirk: Zero Gravity">
+                    <img src="./assets/jpg/uraraka.jpg" alt="Personagem Uraraka"
+                    />
+                </li>
+
+                <li class="personagem" id="todoroki" data-name="Todoroki" 
+                    data-description="Quirk: Fire and Ice">
+                    <img src="./assets/jpg/todoroki.jpg" alt="Personagem Todoroki"
+                    />
+                </li>
+
+                <li class="personagem" id="froppy" data-name="Froppy" 
+                    data-description="Quirk: Frog">
+                    <img src="./assets/jpg/froppy.jpg" alt="Personagem Froppy"
+                    />
+                </li>
+
+                <li class="personagem" id="tokoyami" data-name="Tokoyami" 
+                    data-description="Quirk: Dark Shadow">
+                    <img src="./assets/jpg/tokoyami.jpg" alt="Personagem Tokoyami"
+                    />
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+                <img class="personagem-grande" src="./assets/png/deku.png" width="429" height="429" alt="Personagem Deku"
+                />
+                <div class="informacoes-personagem">
+                    <h2 id="nome-personagem">Deku</h2>
+                    <p id="descricao-personagem"></p>
+                </div>
+        </section>
+    </main>
+    <script src="./assets/script.js/index.js"></script>
+</body>
+</html>
